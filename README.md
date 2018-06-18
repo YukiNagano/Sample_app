@@ -35,8 +35,9 @@ $ rails test
 ```
 $ rails server
 ```
-詳しくは,[*Ruby on Rails チュートリアル*](https://railstuutorial.jp)
-を参考にしてくだしい)
+詳しくは、[*Ruby on Rails チュートリアル*](https://railstuutorial.jp)
+を参考にしてください) 
+
 
 
 
