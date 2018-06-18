@@ -1,24 +1,43 @@
-# README
+# Ruby on Rails チュートリアルのサンプルアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+これは、次の教材で作られたサンプルアプリケーションです。
+[*Ruby on Rails チュートリアル*](https://railsturorial.jp/)
+[Michael Hartl](http://www.michaelhartl.com/) 著
 
-Things you may want to cover:
+##ライセンス
+[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
+ソースコードはMITライセンスとBeerwareライセンスのもとで公開されています。
+詳細は[LICENSE.md](LICENSE.md)をご覧ください。
 
-* Ruby version
+##使い方
 
-* System dependencies
+このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
+その後、次のコマンドで必要になるRubyGemsをインストールします。
 
-* Configuration
+```
+$ bundle install --without production 
+```
 
-* Database creation
+その後、データベースへのマイグレーションを実行します。
 
-* Database initialization
+```
+$ rails db:migrate
+```
 
-* How to run the test suite
+最後にテストを実行をしてうまく動いているかどうかを確認してください。
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails test 
+```
 
-* Deployment instructions
+テストが無事に通ったら、Railsサーバを立ち上げる準備が整っているはずです。
 
-* ...
+```
+$ rails server
+```
+詳しくは,[*Ruby on Rails チュートリアル*](https://railstuutorial.jp)
+を参考にしてくだしい)
+
+
+
+
